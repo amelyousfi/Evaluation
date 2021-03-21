@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     display: flex;
+    flex-direction: column;
+}
+.global1{
+        /* margin: 10px; */
+        background-color: pink;
+        display: flex;
+        justify-content:space-between;
+        /* align-items: center; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        width:100%;
+        height: 100%;
+
+        
+        align-items: center;
+       
+       
+    }
+        
+
+.left{
+    margin: 40px;
+    width:45% ;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    border: 2px solid blue;
+    background-color: blueviolet;
+}
+.right
+{   
+    margin: 40px;
+    width:45% ;
+    height:100%;
+    display: flex;
+    border: 2px solid blue;
+    background-color:gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+ .A2{
+     margin:20px;
+    width: 92%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+
+    }
+.sous-bloc{
+
+    margin:20px;
+    width: 92%;
+    height: 45%;
+    display: flex;
+
+    /* flex-direction: column; */
+    border: 2px solid blue;
+    background-color: rgb(73, 60, 73);
+    justify-content: center;
+    align-items: center;
+
+
+    }
+
+
+
+ .A3{
+     margin:10px;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction:column;
+     border: 2px solid blue;
+    background-color: thistle;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.B3{
+    margin:10px;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction:column;
+
+    border: 2px solid blue;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+} 
+.petit-ecran{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 90%;
+    background-color:darkslateblue;
+    border: 3px solid blue;
+
+
+}
+.bloc1{
+       display: none;
+       margin:10px;
+       width: 90%;
+       height: 40%;
+       border: 2px solid blue;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+
+      } 
+.bloc2{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 20%;
+    border: 2px solid blue;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+
+}
+.bloc3{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 20%;
+    border: 2px solid blue;
+    background-color:coral;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:600px)  /* les changement ne se faitent pas si l ecron est inferieur a 600 a revoir parametres d affichage*/
+{
+    
+.A2{
+    background-color:red;
+}
+.left{
+    background-color: aliceblue;
+}
+.global1{display: none;}
+.left{display: none;}
+.right{display: none;}
+.A2{display: none;}
+.A3{display: none;}
+.B3{display: none;}
+.sous-bloc{ display: none;}
+.petit-ecran{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloc1{ display:inline;
+       justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bloc2{
+     display:inline ;
+     justify-content: center;
+    align-items: center;
+}
+.bloc3{ 
+    display:inline ;
+    justify-content: center;
+    align-items: center;
+
+
+}
+}

@@ -1,0 +1,257 @@
+ *{
+        margin: 0;
+        box-sizing:border-box;
+
+
+    }
+body{
+    margin: 20px;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    background-color: blueviolet;
+    }
+ 
+.global{
+    
+   width:100%;
+   height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    
+   justify-content:space-between;
+  
+   /* align-items: center; */
+   align-items: center;
+   justify-content: center;
+   
+   
+
+    }
+ .entete{
+        background-color: cornsilk;
+        border: 3px solid rgb(24, 24, 116);
+        margin: 5px;
+        display: flex; 
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        }
+.first-container{
+   
+    margin: 5px;
+     display: flex; 
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav{
+    background-color: cornsilk;
+    border: 3px solid rgb(24, 24, 116);
+    margin: 5px;
+     display: flex; 
+    width: 128px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.second-container{
+
+   
+    margin: 5px;
+     display: flex; 
+     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.second-container1{
+
+   
+    margin: 5px;
+     display: flex;
+     /* flex-direction: column; */
+     width: 100%;
+     height: 100%; 
+     align-items: center;
+     justify-content: center;
+
+   
+
+}
+.articl{
+    background-color: cornsilk;
+    margin: 5px;
+
+    border: 3px solid rgb(24, 24, 116);
+   
+    width: 80%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.divers{
+    background-color: cornsilk;
+    margin: 5px;
+
+    border: 3px solid rgb(24, 24, 116);
+    width: 20%;
+    height: 100%;
+   
+     display: flex;
+     /* flex-direction: column; */
+     align-items: center;
+     justify-content: center;
+    
+
+}
+.pieds{
+    background-color: cornsilk;
+    border: 3px solid rgb(24, 24, 116);
+    width: 100%;
+    margin: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+
+
+
+/******** les classes du petit ecran************/
+.petit-ecran{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 90%;
+    background-color:darkslateblue;
+    border: 3px solid blue;
+
+
+}
+.bloc1{
+       display: none;
+       margin:10px;
+       width: 90%;
+       height: 15%;
+       border: 2px solid blue;
+       background-color: rgb(238, 171, 221);
+    justify-content: center;
+    align-items: center;
+
+      } 
+.bloc2{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 20%;
+    border: 2px solid blue;
+    background-color: rgb(238, 171, 221);
+    justify-content: center;
+    align-items: center;
+
+}
+.bloc3{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 30%;
+    border: 2px solid blue;
+    background-color: rgb(238, 171, 221);
+    justify-content: center;
+    align-items: center;
+
+}
+.bloc4{
+    display: none;
+    margin:10px;
+    width: 90%;
+    height: 20%;
+    border: 2px solid blue;
+    background-color: rgb(238, 171, 221);
+    justify-content: center;
+    align-items: center;
+
+}
+.bloc5{
+display: none;
+border: 2px solid blue;
+margin:10px;
+ width: 90%;
+ height: 15%;
+       
+background-color: rgb(238, 171, 221);
+ justify-content: center;
+align-items: center;
+}
+
+
+
+@media(max-width:600px)  /* les changement ne se faitent pas si l ecron est inferieur a 600 a revoir parametres d affichage*/
+{
+
+.global{display: none;}
+.entete{display: none;}
+.first-container{display: none;}
+.second-container{display: none;}
+.second-container1{display: none;}
+.nav{display: none;}
+.articl{ display: none;}
+.divers{ display: none;}
+.pieds{ display: none;}
+.petit-ecran{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloc1{ display:inline;
+       justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bloc2{
+     display:inline ;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bloc3{ 
+    display:inline ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.bloc4{ 
+    display:inline ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.bloc5{ 
+    display:inline ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+}

@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+  
+  .global-entete {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    display: flex;
+   
+    /*justify-content: center;*/
+    flex-direction: column;
+    /*width: 80%;*/
+  }
+  
+  .menu {
+    width: 100%;
+    height: 70%;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(18, 18, 109);
+    display: flex;
+    justify-content:space-evenly;
+    /*margin-left: 2px;*/
+    /*margin-right: 2px;*/
+  }
+  .home{
+      width:20%;
+      display:flex;
+      
+      
+  }
+  .lien{
+      display: flex;
+      width:40%;
+      justify-content: space-between;
+     
+      
+
+  }
+  .lien > a {
+    /*font-size: 5px;*/
+    color: white;
+    text-decoration: none;
+  }
+  
+  .global-entete > img {
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+  }
+  .home>a{
+    color: white;
+    text-decoration: none;
+  }
+  .home>img{
+      width: 25px;
+      height:20px;
+      padding: 2px;
+  }
+  .contenu-global{
+
+   background-color: green;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+      width: 100%;
+      height: 40%;
+      /* background-image:("images/green_box_bg.gif"); */
+      /* background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-color: green; */
+      display: flex;
+      justify-items: center;
+      justify-content: space-between;
+      /* flex-direction: column; */
+    /*justify-content: center;*/
+    /*width: 80%;*/
+
+
+
+  }
+  .text>h2{
+      color:white;
+  }
+  .column1{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      margin-left:20px;
+      margin-right:30px;
+  }
+  .column1>image{
+      margin-top: 10px;
+  }
+  .column2{
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+      width: 60%;
+      text-align:justify;
+  }
+  .buttom{
+      display: flex;
+      
+  }
+  .buttom >h6{
+      background-color: orangered;
+      border-radius: 2px;
+      border:2px solid black;
+  }
+  .column3{
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+  }
+  .ligne{
+      display: flex;
+      border:2px solid wheat;
+      padding-bottom: 5px;
+    height: 30px;
+     
+  }
+  .ligne1{
+      display: flex;
+    
+  }
+  
+  .left{
+      display: flex;
+      justify-items: flex-start;
+      width: 10%;
+      height: 20%;
+      
+  }
+
+  .right{
+    display: flex;
+
+    width:50%;
+    justify-items: flex-end;
+    justify-content:space-between;
+   
+    
+
+}
+.right > a {
+  /*font-size: 5px;*/
+  color: white;
+  text-decoration: none;
+}
+.contenu-center{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    /* height: 50%; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+    /* flex-direction: column; */
+  /*justify-content: center;*/
+  /*width: 80%;*/
+
+
+
+}
+.leftbloc{
+    width: 40%;
+    /* height: 100%; */
+    margin-left:20px;
+     margin-right:30px;
+     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+
+}
+.leftbloc>h2{
+    color: orangered;
+}
+.lignepic{
+    display: flex;
+    border-bottom:2px dotted green;
+    margin-top:10px;
+    margin-bottom: 5px;
+
+   
+
+}
+.lignepic>h4{
+    color:steelblue;
+}
+.lignepic>img
+{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.columnpic{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: center;
+    justify-content: space-between;
+
+}
+.picleft{
+    display: flex;
+    flex-direction: column;
+}
+.picleft>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    border: 2px solid green;
+}
+.pararitght{
+    display: flex;
+    flex-direction: column;
+
+}
+.parag{
+    display: flex;
+    text-align: justify;
+    width: 80%;
+    /* flex-direction: column; */
+
+}
+.readmor{
+    display: flex;
+    width: 20%;
+    align-items: flex-end;
+
+}
+.redmor>h6{
+    color:orangered;
+}
+
+
+ 
+.rightbloc{
+    width: 50%;
+    /* height: 100%; */
+    margin-left:20px;
+      margin-right:30px;
+    display: flex;
+    flex-direction: column; 
+     justify-items: center;
+    justify-content: space-between;
+    
+
+} 
+.rightbloc>h3{
+color: orangered;
+}
+
+.ourproduct{
+    display:flex;
+     flex-direction: column; 
+     width: 100%;
+    /* height: 100%; */
+    
+   }
+     
+ 
+.blocpro1{
+    display: flex;
+     /* flex-direction: column;  */
+     height: 30%;
+     
+
+    border-bottom:2px dotted green;
+    margin-top:10px;
+    margin-bottom: 5px;
+
+} 
+
+.colomne1{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.colomne1>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border:2px solid green;
+    
+}
+
+.colomne2{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.blocpro3{
+    display: flex;
+    width: 100%;
+
+}
+.colo-recherche{
+    display: flex;
+    flex-direction: column;
+    width:50% ;
+    background-color: tan;
+    border-radius: 2%;
+    /* background-image:url("images/search_box_big"); */
+
+}
+.search1{
+    display: flex;
+
+}
+.search1>image{
+    width: 30px;
+    height: 30px;
+}
+.search1>input{
+    height: 20px;
+    padding-bottom: 10px;
+}
+.colo-recherche{
+    display: flex;
+    margin-right: 10px;
+}
+.colo-recherche>h3{
+    padding-bottom: 10px;
+    margin-top: 5px;
+    color: green;
+}
+.colo-recherche>h5{
+    padding-bottom: 5px;
+}
+
+.colcontact{
+display: flex;
+flex-direction: column;
+}
+.colcontact>h3{
+    color:green;
+}
+.tel{
+    display: flex;
+
+
+}
+.pictel{
+    display: flex;
+
+}
+.email{
+    display: flex;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    color:cornflowerblue;
+
+}
+.titrecon{
+    display: flex;
+}
+.titrecon>h3{
+    color:green;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    color:cornflowerblue;
+
+}
+
+.pieds{
+    width: 100%;
+    height: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:rgb(18, 18, 109);
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+
+  
